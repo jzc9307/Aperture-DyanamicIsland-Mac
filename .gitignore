@@ -1,0 +1,7 @@
+# Local editors and release artifacts
+.DS_Store
+.vscode/
+*.app/
+*.dmg
+*.swift
+.local/
