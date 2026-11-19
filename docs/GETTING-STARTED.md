@@ -6,13 +6,13 @@ Open **Settings → Now Playing** and select a source. **All Media** prioritizes
 
 Aperture can use media that macOS shares with third-party apps through Now Playing. Apple Music and Spotify have separate playback connections so they can stay available alongside a system session. The system menu can show sessions that macOS does not share with Aperture.
 
-All Media keeps detected paused sources in the expanded player. When you pause or stop the current source, a source that is still playing can take over. If music and video are both playing, music appears first. You can still switch to the video.
+All Media keeps detected paused sources in the expanded player. The compact artwork disappears after **Idle duration** in **Settings → Now Playing**. When you pause or stop the current source, a source that is still playing can take over. If music and video are both playing, music appears first. You can still switch to the video.
 
 Aperture also reads compatible visible browser players through its existing Device Control and Data Access permission. It reads the title and controls the browser exposes, including standard HTML video and supported custom players such as YouTube. Browser playback can offer Play and Pause when the page exposes them.
 
 ## Menu Bar
 
-Open **Settings → Menu Bar** and turn on **Hide icons**. In **Auto**, Aperture checks the space the expanded island will need. With Auto off, eligible app icons start tucked away.
+Open **Settings → Menu Bar** and turn on **Hide app icons**. **Only when space is tight** checks the space the expanded island will need. Turn that option off to start with eligible app icons tucked away. Enable **Include Siri, Now Playing & Text Input** if you also want to tuck eligible optional controls.
 
 Click the arrow to reveal app icons. If optional controls were tucked too, the next click reveals them. Click again to tuck the items away, or set **Auto-hide after** to tuck them away automatically. The Aperture icon beside the arrow opens the app menu.
 
@@ -26,7 +26,7 @@ Drag a file to the notch to open the tray, or swipe up over the island. Scroll s
 
 **Settings → General → Tuning** adjusts width and height by two display pixels in either direction. **Fit** is zero. The preview tracks the slider as you drag. Enable **Haptic feedback** to feel the steps on compatible trackpads.
 
-Enable the playback and status widgets you want in **Settings → Lock Screen**. macOS supplies the clock. Aperture keeps the Lock Screen badges, including battery, off the screen saver. Focus badges and notifications remain available in their other views.
+Enable the playback and status widgets you want in **Settings → Lock Screen**. macOS supplies the clock. Aperture dismisses the Lock Screen widgets on unlock and plays the island’s unlock animation. The screen saver hides the status badges, including battery and Focus. Focus badges and notifications remain available in their other views.
 
 ## Permissions and data
 

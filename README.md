@@ -4,81 +4,102 @@
 
 <h1>Aperture</h1>
 
-<p><strong>Your Mac’s notch, with something to do.</strong><br />
-Playback, your next event, and a place to drop files, all within reach.</p>
+<p><strong>Playback, calendar, and files at the Mac notch.</strong><br />
+Aperture gives you a compact view while you work and more controls when you open the island.</p>
 
-<p><strong>v0.1.0</strong> · Apple silicon · macOS 15+</p>
+<p>Apple silicon · macOS 15+</p>
 
-<p><a href="#download">Download</a> · <a href="#gallery">Gallery</a> · <a href="docs/GETTING-STARTED.md">Getting started</a> · <a href="CHANGELOG.md">What’s new</a></p>
+<p><a href="#download">Download</a> · <a href="#what-aperture-does">Features</a> · <a href="#versions">Versions</a> · <a href="docs/GETTING-STARTED.md">Getting started</a></p>
 
 </div>
 
----
-
 ## Download
 
-The first release is **v0.1.0**. When the disk image is available on [GitHub Releases](https://github.com/jzc9307/Aperture/releases), open it and drag **Aperture** to **Applications**.
+Get **Aperture v0.1.0** from [GitHub Releases](https://github.com/jzc9307/Aperture-DyanamicIsland-Mac/releases/tag/v0.1.0). Open the DMG, drag **Aperture** to **Applications**, and launch it. The island appears at the notch. To open preferences, choose **Settings** from the Aperture menu or right-click the island.
 
-Aperture runs on Apple silicon Macs with macOS 15 or later. The Liquid Glass appearance requires macOS 26 or later. Use **Settings → Update** to check GitHub for a newer release.
+Aperture requires an Apple silicon Mac running macOS 15 or later. The Liquid Glass appearance requires macOS 26 or later.
 
-## Gallery
+## What Aperture does
 
-<img src="docs/screenshots/player.png" alt="Expanded Aperture music player with artwork, a progress bar, and playback controls" width="100%" />
+### Now Playing
 
-### Keep playback within reach
+<img src="docs/screenshots/now-playing.gif" alt="Animated walkthrough showing compact playback, the expanded player, and the volume row" width="860" />
 
-Open the island to control playback, seek through a track, or adjust output volume. Choose **All Media** to switch between Apple Music, Spotify, and media supplied by macOS. Swipe right over the player to switch sources.
+The compact island shows artwork and a waveform while a detected source is playing. Open it to see the title, playback progress, and the controls available for that source. Use the audio output icon to open the volume row.
+
+In **Settings → Now Playing**, choose Apple Music, Spotify, Automatic · System, or **All Media**. All Media brings detected sources together and gives playing music priority. Swipe right over the expanded player to switch sources. In Duo, swipe over the player on the left.
+
+When playback pauses, the compact artwork hides after your idle delay. In All Media, you can still find the paused source in the expanded player. If another source keeps playing, it can take over. Browser coverage depends on the playback details macOS or the page makes available. Standard HTML media and some custom players are supported, with controls varying by source.
+
+### Calendar and Duo
 
 <table>
 <tr>
-<td width="50%" valign="top">
-<img src="docs/screenshots/duo.png" alt="Aperture Duo layout with media controls on the left and today's calendar on the right" />
-<br /><strong>Duo</strong><br />Play or pause while keeping today’s schedule in view.
-</td>
-<td width="50%" valign="top">
-<img src="docs/screenshots/calendar.png" alt="Expanded Aperture Calendar showing a sample event and month grid" />
-<br /><strong>Calendar</strong><br />See upcoming events from the calendars you connect.
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<img src="docs/screenshots/file-tray.png" alt="File Tray open at the notch and ready to receive files" />
-<br /><strong>File Tray</strong><br />Drag items into the notch or swipe up to reach files you’ve already added.
-</td>
-<td width="50%" valign="top">
-<img src="docs/screenshots/player-volume.png" alt="Aperture playback controls with an open volume row" />
-<br /><strong>Audio output</strong><br />Open the volume row from the audio output icon.
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<img src="docs/screenshots/charging.png" alt="Charging at 80 percent in Aperture’s compact island" />
-<br /><strong>Battery and connectivity</strong><br />See power changes and Bluetooth connections with a symbol for the device.
-</td>
-<td width="50%" valign="top">
-<img src="docs/screenshots/gaming-focus.png" alt="A blue rocket icon and On label show Gaming Focus in Aperture's compact island" />
-<br /><strong>Focus</strong><br />See when your Focus changes, including the blue Gaming indicator.
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<img src="docs/screenshots/bluetooth-watch.png" alt="The Aperture compact island shows a watch icon and Connected" />
-<br /><strong>Device-specific icons</strong><br />Watch, mouse, keyboard, controller, and audio devices have their own symbols.
-</td>
-<td width="50%" valign="top">
-<img src="docs/screenshots/notch-tuning.png" alt="A red notch calibration preview with a plus two pixels readout" />
-<br /><strong>Fit your notch</strong><br />Fine-tune width and height in one-pixel steps. Zero matches the reported notch size.
-</td>
+<td width="50%"><img src="docs/screenshots/calendar.png" alt="Expanded Calendar with a sample event and month grid" /><br /><strong>Calendar</strong></td>
+<td width="50%"><img src="docs/screenshots/duo.png" alt="Expanded Duo view with media and calendar next to each other" /><br /><strong>Duo</strong></td>
 </tr>
 </table>
 
-Screenshots use Aperture’s built-in demo data.
+Connect your calendars to see upcoming events at the notch. Open Calendar for the day’s agenda and month view. Choose **Duo** to keep playback and your schedule side by side. Mapped events can show a time to leave when that option is enabled.
 
-## Make it yours
+### File Tray
 
-- **Appearance** offers Black, Clear, Glass, and Half Glass for the expanded island.
-- **Menu Bar** can tuck away eligible app icons when the expanded island needs space. Click the arrow to reveal them. Aperture’s own icon comes back with the app icons.
-- **Lock Screen** adds playback controls and optional status widgets. The screen saver uses the macOS clock.
-- **Privacy** gives you control over Calendar, audio capture, approximate location, and automation access. Details are in [Getting started](docs/GETTING-STARTED.md).
+<img src="docs/screenshots/file-tray.png" alt="File Tray open at the notch with its drop area visible" width="860" />
 
-Aperture is closed source. This repository contains its documentation and release information. See [third-party notices](docs/THIRD-PARTY-NOTICES.txt) for credits.
+Drag a file onto the notch to open the tray and add it, or swipe up over the island to open the tray directly. Scroll horizontally through your items and drag one back out into a compatible app or folder. Hover over a tile to reveal its remove button. Removing a tile removes its shortcut from Aperture and leaves the original file in place. Swipe down to return to your activities.
+
+### Hidden Menu Bar
+
+<img src="docs/screenshots/menu-bar.gif" alt="Illustrated sequence showing hidden app icons, revealed app icons, and revealed optional controls" width="860" />
+
+In **Settings → Menu Bar**, turn on **Hide app icons**. **Only when space is tight** measures the room the island will need at its expanded width. Turn that option off to start with app icons tucked away. If you enable **Include Siri, Now Playing &amp; Text Input**, eligible optional controls form a second group.
+
+| Action | Result |
+| --- | --- |
+| Click the arrow | Reveal app icons |
+| Click the arrow again | Reveal optional controls, if that group was tucked away |
+| Click the arrow after the last reveal | Tuck the items away again |
+| Click the Aperture icon | Open Aperture’s menu |
+| Leave the revealed items idle | Tuck them away after the delay set in **Auto-hide after** |
+
+Live Activities, Wi-Fi, Battery, and Control Center are excluded from Aperture’s hiding rules. How many icons fit still depends on the space macOS makes available.
+
+### Lock Screen
+
+<img src="docs/screenshots/lock-widgets.png" alt="Aperture’s Lock Screen status widget preview with battery and Focus" width="860" />
+
+Choose which widgets appear in **Settings → Lock Screen**. Aperture can show Now Playing controls alongside optional status badges such as battery and Focus. The widgets enter together when you lock the Mac. On unlock, the widgets dismiss with the Lock Screen and the island plays its own unlock animation.
+
+The clock belongs to macOS. Aperture hides its battery, Focus, and other status badges while the screen saver is active.
+
+### Battery, Bluetooth, and Focus
+
+<table>
+<tr>
+<td width="33%"><img src="docs/screenshots/charging.png" alt="Charging battery notification" /><br /><strong>Battery</strong></td>
+<td width="33%"><img src="docs/screenshots/bluetooth-watch.png" alt="Apple Watch connection notification" /><br /><strong>Bluetooth</strong></td>
+<td width="33%"><img src="docs/screenshots/gaming-focus.png" alt="Blue Gaming Focus notification" /><br /><strong>Gaming Focus</strong></td>
+</tr>
+</table>
+
+Aperture shows compact notifications for power changes, Bluetooth connections, and Focus. Recognized watches, mice, keyboards, controllers, and audio devices get their own symbols. Gaming Focus uses a blue indicator.
+
+### Appearance and fit
+
+<img src="docs/screenshots/notch-tuning.png" alt="Red notch tuning preview showing a plus two pixel adjustment" width="860" />
+
+Choose **Black**, **Clear**, **Glass**, or **Half Glass** for the expanded island. In **Settings → General → Tuning**, adjust notch width and height from −2 to +2 pixels. **Fit** matches the reported notch size at rest. The red preview follows the adjustment, with optional trackpad haptics on compatible Macs.
+
+## Versions
+
+| Version | What’s included | Download |
+| --- | --- | --- |
+| **v0.1.0** | First public release. Now Playing and All Media, Calendar and Duo, File Tray, grouped menu bar hiding, Lock Screen widgets, and notch tuning. | [Release notes and DMG](https://github.com/jzc9307/Aperture-DyanamicIsland-Mac/releases/tag/v0.1.0) |
+
+See the [changelog](CHANGELOG.md) for the full feature list and [all GitHub releases](https://github.com/jzc9307/Aperture-DyanamicIsland-Mac/releases) for downloads.
+
+---
+
+Screenshots show Aperture’s demo data. The GIFs are illustrated walkthroughs. For permissions and detailed setup, see [Getting started](docs/GETTING-STARTED.md).
+
+Aperture is closed source. This repository contains documentation and release information. See the [third-party notices](docs/THIRD-PARTY-NOTICES.txt) for credits.
