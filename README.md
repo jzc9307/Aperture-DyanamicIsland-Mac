@@ -153,10 +153,8 @@ The idle island responds gently to the pointer. You can also enable hover-to-exp
 
 | Version | Status | Details |
 | --- | --- | --- |
-| **v0.2.0** | **In development · not uploaded** | [Preview notes](docs/releases/v0.2.0.md): AirDrop activity, Up Next, screenshot drops, live-waveform improvements, and interaction refinements. |
-| **v0.1.0** | Public release | [Release page](https://github.com/jzc9307/Aperture-DyanamicIsland-Mac/releases/tag/v0.1.0) · [Changelog](CHANGELOG.md) |
-
-Phone-call integration remains experimental and has not completed real incoming/outgoing-call validation. It is not presented here as a verified v0.2.0 feature. Animated Apple Music Lock Screen artwork is not included.
+| **v0.2.0** | Public release | [Download](https://github.com/jzc9307/Aperture-DyanamicIsland-Mac/releases/tag/v0.2.0) |
+| **v0.1.0** | Public release | [Download](https://github.com/jzc9307/Aperture-DyanamicIsland-Mac/releases/tag/v0.1.0) · [Changelog](CHANGELOG.md) |
 
 ---
 
