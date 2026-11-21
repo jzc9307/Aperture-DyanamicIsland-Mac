@@ -18,7 +18,7 @@ Music, your next event, quick file transfers, and useful status updates—within
 
 | Version | Status | Details |
 | --- | --- | --- |
-| **v0.3.3** | Public release | [Download](https://github.com/jzc9307/Aperture-DyanamicIsland-Mac/releases/tag/v0.3.3) |
+| **v0.3.3** | Public release (recommend) | [Download](https://github.com/jzc9307/Aperture-DyanamicIsland-Mac/releases/tag/v0.3.3) |
 | **v0.3.2** | Public release | [Download](https://github.com/jzc9307/Aperture-DyanamicIsland-Mac/releases/tag/v0.3.2) |
 | **v0.3.1** | Public release | [Download](https://github.com/jzc9307/Aperture-DyanamicIsland-Mac/releases/tag/v0.3.1) |
 | **v0.3.0** | Public release | [Download](https://github.com/jzc9307/Aperture-DyanamicIsland-Mac/releases/tag/v0.3.0) |
