@@ -14,13 +14,20 @@ Music, your next event, quick file transfers, and useful status updates—within
 
 </div>
 
-## Download and release status
+## Versions
 
-**v0.1.0 is the public release. v0.2.0 has not been uploaded yet.** This page also previews the current v0.2.0 development interface; features marked **v0.2.0** are not part of the v0.1.0 download.
+| Version | Status | Details |
+| --- | --- | --- |
+| **v0.3.1** | Public release | [Download](https://github.com/jzc9307/Aperture-DyanamicIsland-Mac/releases/tag/v0.3.1) |
+| **v0.3.0** | Public release | [Download](https://github.com/jzc9307/Aperture-DyanamicIsland-Mac/releases/tag/v0.3.0) |
+| **v0.2.0** | Public release | [Download](https://github.com/jzc9307/Aperture-DyanamicIsland-Mac/releases/tag/v0.2.0) |
+| **v0.1.0** | Public release | [Download](https://github.com/jzc9307/Aperture-DyanamicIsland-Mac/releases/tag/v0.1.0) · [Changelog](CHANGELOG.md) |
 
 [Download the public release](https://github.com/jzc9307/Aperture-DyanamicIsland-Mac/releases/tag/v0.1.0) · [Read what’s coming in v0.2.0](docs/releases/v0.2.0.md)
 
 Open the DMG, drag **Aperture** to **Applications**, and launch it. Click the island to open your activity. Right-click it or use Aperture’s menu to open **Settings**. See the [setup guide](docs/GETTING-STARTED.md) for permissions and gestures.
+
+Starting with **v0.3.1**, subsequent updates can be downloaded and installed through **Settings → Update → Download Update → Install & Relaunch**. Users on v0.3.0 or earlier need one manual installation of v0.3.1 to receive this updater.
 
 ## Music without the window-switching
 
@@ -148,13 +155,6 @@ See charging and low-battery updates, recognized Bluetooth connections, Focus ch
 Choose **Black, Clear, Glass, or Half Glass** for the expanded island. Adjust width and height from **−2 to +2 display pixels** in **Settings → General → Tuning**; **Fit** uses the reported notch geometry. A red preview makes the adjustment visible.
 
 The idle island responds gently to the pointer. You can also enable hover-to-expand, set its delay, tune spring response and damping, and use trackpad haptics on compatible hardware. Visibility options cover full-screen apps, gaming, and Mission Control.
-
-## Versions
-
-| Version | Status | Details |
-| --- | --- | --- |
-| **v0.2.0** | Public release | [Download](https://github.com/jzc9307/Aperture-DyanamicIsland-Mac/releases/tag/v0.2.0) |
-| **v0.1.0** | Public release | [Download](https://github.com/jzc9307/Aperture-DyanamicIsland-Mac/releases/tag/v0.1.0) · [Changelog](CHANGELOG.md) |
 
 ---
 
