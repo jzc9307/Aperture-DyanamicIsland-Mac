@@ -95,7 +95,7 @@ Widgets enter and dismiss with the lock presentation. On unlock, they leave the 
 
 <img src="docs/screenshots/calendar-duo.gif" width="900" alt="Calendar and Duo demonstration: music and today’s event side by side, an agenda with upcoming days, and the month grid" />
 
-**Calendar** shows today’s date and events, with upcoming days in a scrolling agenda. Event cards include their time and, when available, location. Open an event from its card. Prefer a broader view? Switch the left side to the month grid and enable event indicators.
+**Calendar** shows today’s date and events, with upcoming days in a scrolling agenda. Event cards include their time and, when available, location. Open an event from its card. In v0.3.2, swipe horizontally over the left date area or click the date to open the Calendar widget-style month grid. Choose any date to see that day’s events on the right, including past dates and later months. Scrolling over the right agenda keeps you in Calendar. Optional event indicators can be enabled.
 
 **Duo** keeps a compact music player and today’s schedule side by side. You can check your next event and control playback in the same panel.
 
@@ -104,7 +104,7 @@ Choose which calendars appear, set event reminders and Quick Peek behavior, and 
 <table>
 <tr>
 <td width="50%"><img src="docs/screenshots/calendar.png" alt="Calendar with today’s Design review and upcoming sample events" /><br /><strong>Agenda</strong></td>
-<td width="50%"><img src="docs/screenshots/calendar-month.png" alt="Calendar month grid next to the upcoming agenda" /><br /><strong>Month view</strong></td>
+<td width="50%"><img src="docs/screenshots/calendar-month.png" alt="Calendar widget-style month grid with the selected day’s sample events" /><br /><strong>Month view</strong></td>
 </tr>
 </table>
 
@@ -122,7 +122,7 @@ Use the tray’s AirDrop button to send its files through macOS. Swipe down to r
 
 <img src="docs/screenshots/airdrop.gif" width="900" alt="AirDrop activity demonstration with a file preview, a small AirDrop badge, an activity ring, and a received confirmation" />
 
-Send files from File Tray or **Settings → AirDrop → Choose Files**. Aperture shows outgoing and incoming activity, with options to expand while sending or receiving. When a received file is available, the island can show its thumbnail and a completion state, then clear the activity.
+Send files from File Tray or **Settings → AirDrop → Choose Files**. Starting with v0.3.2, macOS handles outgoing recipient selection and transfer progress; Aperture reports errors without claiming Sending or Sent from the picker callbacks. Aperture shows accepted incoming activity, with an option to expand while receiving. When a received file is available, the island can show its thumbnail and a completion state, then clear the activity.
 
 **Accept or decline incoming requests in macOS.** The native AirDrop prompt and completion notification remain enabled. Aperture’s ring indicates transfer activity; it is not a measured byte-progress percentage. The file preview becomes available after import, rather than before consent.
 

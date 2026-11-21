@@ -1,5 +1,22 @@
 # Changelog
 
+## 0.3.3 — local candidate
+
+- Reconcile lock state after wake and recover stale lock-UI hints when unlock notifications are missed; clean up protected widget windows before desktop restoration.
+- Keep a swipe's starting region and axis through its tail, preserve native calendar agenda scrolling, and respond to separate rapid gestures without a fixed cooldown.
+- Bound fullscreen Accessibility query time to reduce stalls from waking or unresponsive apps.
+- Verify saved settings and retained File Tray items across reload and local installation. Original Settings visuals and existing Lock Screen spacing retained.
+- Physical lid-close/reopen verification and the real public GitHub Install & Relaunch test remain pending.
+
+## 0.3.2 — local candidate
+
+- Reduced Lock Screen player top padding to 16 points and preserved native Glass/Clear material treatment; original Settings previews retained.
+
+- Calendar widget-style month grid with selected-day events, past/later-month browsing, Today and Day view.
+- Calendar agenda scrolling takes priority over island activity gestures under the pointer; removed hidden list truncation.
+- Fixed premature AirDrop Sending and false Sent on picker cancellation. Native macOS owns outgoing progress; accepted incoming activity and real errors remain supported.
+
+
 ## 0.2.0 — unreleased
 
 **Not uploaded yet.** See the [v0.2.0 preview notes](docs/releases/v0.2.0.md) for feature behavior and release limitations.

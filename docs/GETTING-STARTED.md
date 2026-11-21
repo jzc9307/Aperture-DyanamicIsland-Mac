@@ -69,7 +69,7 @@ Removing a tile removes the tray entry, not the original file. In v0.2.0, draggi
 
 ### Sending and receiving AirDrop · v0.2.0
 
-Use the tray’s AirDrop button to send its files, or use **Settings → AirDrop → Choose Files**. Choose a recipient in macOS. Set **Expand while sending** and **Expand while receiving** independently.
+Use the tray’s AirDrop button to send its files, or use **Settings → AirDrop → Choose Files**. Choose a recipient in macOS. In v0.3.2, follow outgoing progress and completion in macOS AirDrop. Aperture does not treat opening or cancelling the recipient picker as a transfer. **Expand while receiving** controls the incoming activity panel.
 
 Accept or decline incoming requests in the **native macOS prompt**. Aperture does not replace it or suppress the native completion notification. A received preview is available after import. The activity ring is not a measured transfer percentage.
 
